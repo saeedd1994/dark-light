@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>dark-light</title>
+</head>
+
+<body>
+    <!-- toggle dark/light -->
+    <div class="theme-toggle-wrapper">
+        <span class="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fa-solid fa-sun"></i>
+        </span>
+
+        <label class="switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+
+    </div>
+    <!-- navigation -->
+    <nav id="nav">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#projects">projects</a>
+        <a href="#contacts">contacts</a>
+    </nav>
+
+
+    <!-- home section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>My Name is Saeed...</h1>
+            <h2>I am a frontend developer!...</h2>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about">
+        <h1>undraw illustrations</h1>
+        <div class="about-container">
+            <div class="img-container">
+                <h2>web innovation</h2>
+                <img src="img/undraw_collaborating_re_l43g_light.svg" alt="undraw svg" id="image1">
+            </div>
+            <div class="img-container">
+                <h2>problem solving</h2>
+                <img src="img/undraw_getting_coffee_re_f2do_light.svg" alt="undraw svg" id="image2">
+            </div>
+            <div class="img-container">
+                <h2>high concept</h2>
+                <img src="img/undraw_winners_re_wr1l_light.svg" alt="undraw svg" id="image3">
+            </div>
+        </div>
+    </section>
+    <!-- projects section -->
+    <section id="projects">
+        <h1>buttons</h1>
+        <div class="buttons">
+            <button class="primary">primary</button>
+            <button class="secondary">secondary</button>
+            <button class="primary" disabled>disabled</button>
+            <button class="secondary outline">alt outline</button>
+            <button class="outline">outline</button>
+        </div>
+        <div class="project-para-wrapper">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptate nisi natus nostrum ipsum
+                quam, alias, voluptatem minima est, possimus optio? Ea est nulla aliquam soluta? Tenetur eos inventore
+                nobis!
+            </p>
+        </div>
+    </section>
+    <!-- contacts section -->
+    <section id="contacts">
+        <h1>contacts</h1>
+        <div class="social-wrapper">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-facebook"></i>
+
+        </div>
+    </section>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
